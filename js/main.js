@@ -22,7 +22,7 @@ fetch('https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?lat=49.2&lon=
 			max[i].innerHTML = data[i].max_temp
 			min[i].innerHTML = data[i].min_temp
 			if (data[i].max_temp > 15 ) {
-				vusnovok[i].innerHTML = "Може нап'ємся"
+				vusnovok[i].innerHTML = "Я і Вася в валяються в фосі"
 			  }
 			else{
 				vusnovok[i].innerHTML = 'хуй а не пянка'
